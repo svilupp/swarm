@@ -2,7 +2,7 @@
   "type": "function",
   "function": {
     "name": "query_docs",
-    "description": "Tool to get information about OpenAI products to help users. This JUST querys the data, it does not respond to user.",
+    "description": "Tool to get information about OpenAI products to help users. This JUST queries the data, it does not respond to user.",
     "parameters": {
       "type": "object",
       "properties": {
