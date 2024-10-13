@@ -1,3 +1,14 @@
-[build-system]
-requires = ["setuptools"]
-build-backend = "setuptools.build_meta"
+[project]
+name = "swarm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "instructor>=1.5.2",
+    "numpy>=2.0.2",
+    "openai>=1.51.2",
+    "pytest>=8.3.3",
+    "requests>=2.32.3",
+    "tqdm>=4.66.5",
+]
